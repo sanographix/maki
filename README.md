@@ -2,7 +2,7 @@
 
 ## A Basic Lightweight LESS Boilerplate
 
-Maki は、LESS で勢いよくサイト制作する人のための下ごしらえセットです。
+Maki は、LESS で勢いよくサイト制作する人のための Boilerplate です。
 
 「サイトをフルスクラッチするときに CSS (LESS) の下準備が大変だなァ」みたいな時に使うと、スムーズに LESS を書き始められます。一般的な CSS フレームワークみたく厚くなく、本当に最初の下ごしらえの部分しか書いていないので、各々の LESS の書き方を邪魔せず使えます。   
 [@sanographix](http://twitter.com/sanographix) が作っています。
@@ -22,7 +22,7 @@ Maki は、LESS で勢いよくサイト制作する人のための下ごしら�
 
 中身はこうなってます。maki.less だけをコンパイルすれば良いです。
 
-	maki,less
+	maki.less
 	┣ _normalize.less
 	┣ _mixin.less
 	┣ _variable.less
