@@ -1,79 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Maki : A Lightweight LESS Boilerplate" />
+  <meta charset="utf-8">
+  <title>Maki - A Basic Lightweight LESS Boilerplate</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <meta name="description" content="Maki は、LESS で勢いよくサイト制作する人のための下ごしらえセットです。" />
+  <meta name="keywords" content="LESS, Boilerplate" />
 
-    <title>Maki</title>
-  </head>
+  <meta property="og:title" content="Maki - A Basic Lightweight LESS Boilerplate" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://sanographix.github.io/maki/" />
+  <meta property="og:site_name" content="Maki - A Basic Lightweight LESS Boilerplate" />
+  <meta property="fb:app_id" content="115143821929167" />
 
-  <body>
+  <link rel="stylesheet" media="screen" href="css/maki.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="canonical" href="http://sanographix.github.io/maki/" />
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/sanographix/maki">View on GitHub</a>
+  <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-          <h1 id="project_title">Maki</h1>
-          <h2 id="project_tagline">A Lightweight LESS Boilerplate</h2>
+  <script type="text/javascript" src="//use.typekit.net/qpn5dvp.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/sanographix/maki/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/sanographix/maki/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36621684-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <!-- END Google Analytics -->
+
+</head>
+<body>
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- END Facebook SDK -->
+
+  <div class="globalheader">
+    <h1><a href="/">Maki</a></h1>
+    <div class="pull-right">
+      <a href="http://www.sanographix.net">by SANOGRAPHIX.NET</a>
     </div>
+  </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+  <div class="container">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <header id="header">
+      <section class="section">
+        <h1><a href="/">Maki</a></h1>
+        <h2>A Basic Lightweight LESS Boilerplate</h2>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <p>
+          <a href="https://github.com/sanographix/maki">GitHub Project</a>
+          &nbsp;&nbsp;·&nbsp;&nbsp;
+          Created &amp; Maintained by
+          <a href="http://www.sanographix.net">@sanographix</a>
+        </p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
-    </div>
+    </header>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Maki maintained by <a href="https://github.com/sanographix">sanographix</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    <section class="main section">
+      <a href="https://github.com/sanographix/maki/archive/master.zip" class="btn btn-primary btn-large">Download Maki</a>
+      <a href="https://github.com/sanographix/maki" class="btn btn-large">Readme</a>
+    </section>
 
-    
+    <footer id="footer">
+      <small>
+        Copyright (c) 2013 SANOGRAPHIX.NET
+      </small>
+    </footer>
 
-  </body>
+  </div>
+
+  <div class="bg-gradient"></div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</body>
 </html>
