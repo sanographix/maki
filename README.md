@@ -1,8 +1,8 @@
 # Maki
 
-## A Basic Lightweight LESS Framework(modoki)
+## A Basic Lightweight LESS Boilerplate
 
-Maki は、LESS でサイトをスクラッチする人のためのフレームワークもどきです。Boilerplate とも言います。
+Maki は、LESS で勢いよくサイト制作する人のための下ごしらえセットです。
 
 「サイトをフルスクラッチするときに CSS (LESS) の下準備が大変だなァ」みたいな時に使うと、スムーズに LESS を書き始められます。一般的な CSS フレームワークみたく厚くなく、本当に最初の下ごしらえの部分しか書いていないので、各々の LESS の書き方を邪魔せず使えます。   
 [@sanographix](http://twitter.com/sanographix) が作っています。
@@ -11,7 +11,7 @@ Maki は、LESS でサイトをスクラッチする人のためのフレーム�
 
 # Get Started
 
-まず[ここからダウンロード](https://github.com/sanographix/maki/zipball/master)してください。
+まず[ここからダウンロード](https://github.com/sanographix/maki/archive/master.zip)してください。
 
 次に html の head 部分に`maki.css`を読み込みます。
 
