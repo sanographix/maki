@@ -100,7 +100,17 @@ Maki は、LESS で勢いよくサイト制作する人のための Boilerplate 
 	    }
 	}
 
+
+## _media-queries.less
   
+メディアクエリです。Retina ディスプレイ用のスタイルを書く欄と、レスポンシブデザイン用のスタイルを書く欄があります。
+
+Retina ディスプレイ用のスタイルは下記の 3 パターンに出し分けできます。
+
+* Retina ディスプレイ用
+	* Retina のデバイス全部に出す
+	* Retina かつ iPad 以上のブラウザ幅のとき出す
+	* Retina かつ PC で見てるときだけ出す
     
 # Changelog
 
