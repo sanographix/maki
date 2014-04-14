@@ -1,5 +1,12 @@
 # Maki
 
+## [お知らせ] Rin のほう使ってください
+
+このリポジトリはもうメンテナンスしていません。[Rin](https://github.com/sanographix/rin-html-template) の LESS を使ってください。
+
+- <https://github.com/sanographix/rin-html-template>
+
+
 ## A Basic Lightweight LESS Boilerplate
 
 Maki は、LESS で勢いよくサイト制作する人のための Boilerplate です。
