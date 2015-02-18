@@ -2,9 +2,9 @@
 
 ## [お知らせ] Rin のほう使ってください
 
-このリポジトリはもうメンテナンスしていません。[Rin](https://github.com/sanographix/rin-html-template) の LESS を使ってください。
+このリポジトリはもうメンテナンスしていません。[Rin](https://github.com/sanographix/rin) を使ってください。
 
-- <https://github.com/sanographix/rin-html-template>
+- <https://github.com/sanographix/rin/>
 
 
 ## A Basic Lightweight LESS Boilerplate
